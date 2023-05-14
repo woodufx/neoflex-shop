@@ -1,0 +1,57 @@
+@import '@assets/styles/colors';
+
+.header {
+  &__wrapper {
+    width: 100vw;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 28px;
+  }
+  &__inner {
+    width: 1135px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__logo {
+    font-size: 25px;
+    font-weight: 700;
+    color: $primary-color;
+    text-decoration: none;
+  }
+  &__icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 45px;
+  }
+  &__link {
+    height: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  &__icon {
+    position: relative;
+  }
+  &__number {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 500;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: $accent-color;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -7px;
+    right: -9px;
+  }
+  img {
+    pointer-events: none;
+  }
+}
